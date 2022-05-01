@@ -27,7 +27,7 @@ jobs:
         run: pnpm run build
 
       - name: echo cname
-        run: echo 'ritem-mini.elonehoo.xyz' > dist/CNAME
+        run: echo 'start-trois.elonehoo.xyz' > dist/CNAME
 
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2
