@@ -2,7 +2,7 @@
   "name": "troisjs-ts",
   "description": "Three.js initialization template",
   "version": "1.0.0",
-  "packageManager": "pnpm@6.32.9",
+  "packageManager": "pnpm@6.34.0",
   "author": "Elone Hoo <huchengyea@163.com>",
   "scripts": {
     "dev": "vite --port 3333 --open",
