@@ -2,11 +2,11 @@ lockfileVersion: 5.4
 
 specifiers:
   '@elonehoo/eslint-config': 2.0.0
-  '@types/three': 0.134.0
+  '@types/three': 0.144.0
   '@vitejs/plugin-vue': 3.1.0
   '@vue/compiler-sfc': 3.2.39
   eslint: 8.23.0
-  three: 0.134.0
+  three: 0.144.0
   troisjs: 0.3.4
   typescript: 4.8.3
   vite: 3.1.0
@@ -14,13 +14,13 @@ specifiers:
   vue-tsc: 0.40.13
 
 dependencies:
-  three: 0.134.0
+  three: 0.144.0
   troisjs: 0.3.4
   vue: 3.2.39
 
 devDependencies:
   '@elonehoo/eslint-config': 2.0.0_itqs5654cmlnjraw6gjzqacppi
-  '@types/three': 0.134.0
+  '@types/three': 0.144.0
   '@vitejs/plugin-vue': 3.1.0_vite@3.1.0+vue@3.2.39
   '@vue/compiler-sfc': 3.2.39
   eslint: 8.23.0
@@ -254,12 +254,18 @@ packages:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
     dev: true
 
-  /@types/three/0.134.0:
-    resolution: {integrity: sha512-4YB+99Rgqq27EjiYTItEoZtdjLnTh8W9LxowgpC9eWsjaQJIL4Kn/ZcUKAnW3gB/jS4hqGN8iqmid+RcUZDzpA==}
+  /@types/three/0.144.0:
+    resolution: {integrity: sha512-psvEs6q5rLN50jUYZ3D4pZMfxTbdt3A243blt0my7/NcL6chaCZpHe2csbCtx0SOD9fI/XnF3wnVUAYZGqCSYg==}
+    dependencies:
+      '@types/webxr': 0.5.0
     dev: true
 
   /@types/unist/2.0.6:
     resolution: {integrity: sha512-PBjIUxZHOuj0R15/xuwJYjFi+KZdNFrehocChv4g5hu6aFroHue8m0lBP0POdK2nKzbw0cgV1mws8+V/JAcEkQ==}
+    dev: true
+
+  /@types/webxr/0.5.0:
+    resolution: {integrity: sha512-IUMDPSXnYIbEO2IereEFcgcqfDREOgmbGqtrMpVPpACTU6pltYLwHgVkrnYv0XhWEcjio9sYEfIEzgn3c7nDqA==}
     dev: true
 
   /@typescript-eslint/eslint-plugin/5.21.0_qhp5bgw5nvvmqwzm3fihx2nkfu:
@@ -2552,8 +2558,8 @@ packages:
     resolution: {integrity: sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==}
     dev: true
 
-  /three/0.134.0:
-    resolution: {integrity: sha512-LbBerg7GaSPjYtTOnu41AMp7tV6efUNR3p4Wk5NzkSsNTBuA5mDGOfwwZL1jhhVMLx9V20HolIUo0+U3AXehbg==}
+  /three/0.144.0:
+    resolution: {integrity: sha512-R8AXPuqfjfRJKkYoTQcTK7A6i3AdO9++2n8ubya/GTU+fEHhYKu1ZooRSCPkx69jbnzT7dD/xEo6eROQTt2lJw==}
     dev: false
 
   /to-fast-properties/2.0.0:
